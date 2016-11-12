@@ -148,13 +148,13 @@ $_ADDONLANG['client_reverse_sPrevious'] = "Vorherige";
 $_ADDONLANG['client_title_maintenance'] = "DNS Management nicht verfügbar!";
 $_ADDONLANG['client_desc_maintenance'] = "Das DNS Management ist momentan aufgrund von Wartungsarbeiten nicht verfügbar. Versuchen Sie es später noch einmal!";
 
-$_ADDONLANG['client_title_pdnserror'] = "Nicht mögglich DNS-Einstellungen zu ändern!";
-$_ADDONLANG['client_desc_pdnserror'] = "Zurzeit ist es nicht möglich die DNS-Einstellungen Ihrer Domain zu ändern. <br/> Versuchen Sie es später noch einmal. Wenn dieses Problem  weiterhin besteht, kontaktieren Sie bitte unseren Support!";
-$_ADDONLANG['client_desc_pdnserror2'] = "Zurzeit ist es nicht möglich die DNS-Einstellungen Ihres Kontos zu ändern. Versuchen Sie es später noch einmal. Wenn dieses Problem  weiterhin besteht, kontaktieren Sie bitte unseren Support!";
+$_ADDONLANG['client_title_pdnserror'] = "Die DNS-Einstellungen können nicht geändert werden!";
+$_ADDONLANG['client_desc_pdnserror'] = "Zurzeit ist es nicht möglich die DNS-Einstellungen Ihrer Domain zu ändern. <br/> Versuchen Sie es später noch einmal. Wenn dieses Problem weiterhin besteht, kontaktieren Sie bitte unseren Support!";
+$_ADDONLANG['client_desc_pdnserror2'] = "Zurzeit ist es nicht möglich die DNS-Einstellungen Ihres Kontos zu ändern. Versuchen Sie es später noch einmal. Wenn dieses Problem weiterhin besteht, kontaktieren Sie bitte unseren Support!";
 
 $_ADDONLANG['client_title_permission'] = "Zugriff verweigert!";
 $_ADDONLANG['client_desc_permission'] = "Sie verfügen nicht über die notwendigen Rechte um auf diesen Bereich zugreifen zu können!";
-$_ADDONLANG['client_slavezone_error'] = "Diese Zone ist anscheinend eine Slave-Zone, die nicht bearbeitet werden kann! Wenn dies falsch ist, kontaktieren Sie bitte den Support.";
+$_ADDONLANG['client_slavezone_error'] = "Diese Zone ist anscheinend eine Slave-Zone die nicht bearbeitet werden kann! Wenn dies falsch ist, kontaktieren Sie bitte den Support.";
 
 
 ####################
@@ -169,9 +169,9 @@ $_ADDONLANG['admin_menu_overview'] = "Übersicht";
 $_ADDONLANG['admin_menu_templates'] = "Vorlagen";
 $_ADDONLANG['admin_menu_settings'] = "Einstellungen";
 $_ADDONLANG['admin_menu_records'] = "Records";
-$_ADDONLANG['admin_menu_accessibility'] = "Erreichbarkeit";
+$_ADDONLANG['admin_menu_accessibility'] = "Zugänglichkeit";
 $_ADDONLANG['admin_menu_automation'] = "Automatisierung";
-$_ADDONLANG['admin_menu_assignment'] = "Aufgabe";
+$_ADDONLANG['admin_menu_assignment'] = "Zuordnung";
 $_ADDONLANG['admin_menu_handling'] = "Handhabung";
 $_ADDONLANG['admin_menu_nameservers'] = "Nameserver";
 $_ADDONLANG['admin_menu_system'] = "System";
@@ -205,7 +205,7 @@ $_ADDONLANG['admin_index'] = "Index";
 $_ADDONLANG['admin_savechanges'] = "Änderungen speichern";
 
 //Statusses
-$_ADDONLANG['admin_cancelled'] = "Abgebrochen";
+$_ADDONLANG['admin_cancelled'] = "Gekündigt";
 $_ADDONLANG['admin_terminated'] = "Beendet";
 $_ADDONLANG['admin_expired'] = "Abgelaufen";
 $_ADDONLANG['admin_suspended'] = "Gesperrt";
@@ -222,7 +222,7 @@ $_ADDONLANG['admin_accessibility_option_disablesecondarymenu'] = "Managementmen�
 $_ADDONLANG['admin_accessibility_option_hidesoa'] = "SOA Record verstecken";
 $_ADDONLANG['admin_accessibility_option_disablens'] = "NS Record deaktivieren";
 $_ADDONLANG['admin_accessibility_option_presetttl'] = "Nutze das voreingestellte TTL-Feld";
-$_ADDONLANG['admin_accessibility_option_hideassist'] = "Kunden DNS Assistenten verstecken";
+$_ADDONLANG['admin_accessibility_option_hideassist'] = "Den DNS Assistenten für Kunden verstecken";
 $_ADDONLANG['admin_accessibility_option_dnspagination'] = "DNS Numerierung";
 $_ADDONLANG['admin_accessibility_option_urlrewrite'] = "Rewrite Kundenbereichs-URL";
 
@@ -238,12 +238,12 @@ $_ADDONLANG['admin_accessibility_option_adminhealth'] = "Gesundheits-Icon";
 
 $_ADDONLANG['admin_accessibility_desc_disableprimarymenu'] = "Deaktivieren Sie im Kundenbereich den DNS-Management Eintrag im Hauptmenü.";
 $_ADDONLANG['admin_accessibility_desc_disablesecondarymenu'] = "Deaktivieren Sie im Kundenbereich den DNS-Management Eintrag im Hauptmenü der Domain und der Produktdetail-Seite.";
-$_ADDONLANG['admin_accessibility_desc_hidesoa'] = "SOA Records für Nutzer verstecken. Wenn Sie die SOA Records anzeigen, werden diese immer deaktiviert.";
+$_ADDONLANG['admin_accessibility_desc_hidesoa'] = "SOA Records für Nutzer verstecken. Wenn Sie die SOA Records anzeigen, wird dies immer deaktiviert.";
 $_ADDONLANG['admin_accessibility_desc_disablens'] = "Wenn angekreuzt, werden die Namenserver für die Nutzer nicht angezeigt.";
 $_ADDONLANG['admin_accessibility_desc_presetttl'] = "Nutzen Sie das voreingestellte TTL Dropdown-Menü anstatt einer Textbox.";
 $_ADDONLANG['admin_accessibility_desc_hideassist'] = "Kreuzen Sie diese Checkbox an, um den DNS-Assistenten für Ihre Nutzer zu verstecken.";
 $_ADDONLANG['admin_accessibility_desc_dnspagination'] = "Wechsle auf Seiten wenn die Zonenanzahl steigt. (0 = Nein)";
-$_ADDONLANG['admin_accessibility_desc_urlrewrite'] = "Rewrite the client area URL, requires .htaccess customizations. Leave empty to disable. See: <a class=\"text-info\" href=\"http://www.solutedns.com/documentation/customized-url\" target=\"_blank\">Custom URL</a>";
+$_ADDONLANG['admin_accessibility_desc_urlrewrite'] = "Umschreiben Sie die Kundenbereichs-URL, dies erfordert eine Anpassung der .htaccess Datei. Zum deaktivieren leer lassen. Siehe: <a class=\"text-info\" href=\"http://www.solutedns.com/documentation/customized-url\" target=\"_blank\">Custom URL</a>";
 $_ADDONLANG['admin_accessibility_desc_clientzones'] = "Auswählen, um das Zonenmanagement für Kunden zu aktivieren.";
 $_ADDONLANG['admin_accessibility_desc_clienttemplate'] = "Auswählen, um Standardvorlagen für Kunden zu aktivieren.";
 $_ADDONLANG['admin_accessibility_desc_client_zones_subdomains'] = "Kunden erlauben Subdomains als neue Zone hinzuzufügen.";
@@ -251,7 +251,7 @@ $_ADDONLANG['admin_accessibility_desc_clienthealth'] = "Auswählen, um den Gesun
 $_ADDONLANG['admin_accessibility_desc_clientreverse'] = "Anklicken, sodass Kunden den Revers-Hostname für zugewiesene IP-Adresse verwalten können.";
 $_ADDONLANG['admin_accessibility_desc_zonelimit'] = "Beschränken Sie die maximalen Zonen für die Kunden. (0 = unbegrenzt, -1 = keine)";
 
-$_ADDONLANG['admin_accessibility_desc_adminreverse'] = "Auswählen, um die Revers-Zonen in der Admin-Area zu aktivieren.";
+$_ADDONLANG['admin_accessibility_desc_adminreverse'] = "Auswählen, um die Revers-Zonen im Adminbereich zu aktivieren.";
 $_ADDONLANG['admin_accessibility_desc_adminhealth'] = "Zeigt das Gesundheits-Icon in der Admin-Domain-Übersicht.";
 
 // Automation
@@ -262,28 +262,28 @@ $_ADDONLANG['admin_automation_title_admin'] = "Admin";
 $_ADDONLANG['admin_automation_option_create'] = "Zone automatisch erstellen";
 $_ADDONLANG['admin_automation_option_maintenance'] = "Automatische Wartung";
 $_ADDONLANG['admin_automation_option_delete'] = "Zone automatisch löschen";
-$_ADDONLANG['admin_automation_option_todo'] = "Automatisch zu Objekten hinzufügen";
+$_ADDONLANG['admin_automation_option_todo'] = "Automatisch zur To-Do Liste hinzufügen";
 
 $_ADDONLANG['admin_automation_option_enabledns'] = "DNS Management automatisch aktivieren";
 $_ADDONLANG['admin_automation_option_health'] = "Gesundheitssystem aktivieren";
 
-$_ADDONLANG['admin_automation_option_products'] = "Aktivieren für DNS Produkte";
+$_ADDONLANG['admin_automation_option_products'] = "Aktiviere DNS für Produkte";
 
 $_ADDONLANG['admin_automation_desc_create'] = "Automastisch neue Zonen für Domain-Aufträge nach dem Kauf erstellen.";
-$_ADDONLANG['admin_automation_desc_maintenance'] = "Automatisch Local-Index beibehalten.";
+$_ADDONLANG['admin_automation_desc_maintenance'] = "Lokalen Index automatisch pflegen.";
 $_ADDONLANG['admin_automation_desc_delete'] = "Zone der Domains und Produkte automatisch mit ausgewähltem Zustand löschen.";
-$_ADDONLANG['admin_automation_desc_deletewhmcs'] = "Wenn Domain/Produkt entfernt in WHMCS wurde.";
+$_ADDONLANG['admin_automation_desc_deletewhmcs'] = "Wenn Domain/Produkt in WHMCS entfernt wurde.";
 
 $_ADDONLANG['admin_automation_desc_enabledns'] = "Automatisch WHMCS DNS Management für neuen Bereich aktivieren.";
 $_ADDONLANG['admin_automation_desc_health'] = "Anklicken, um Gesundheitssystem zu aktivieren.";
 
 $_ADDONLANG['admin_automation_desc_products'] = "Automatisch Zone für bestimmte Produkte mit externen Domains erstellen.";
 
-$_ADDONLANG['admin_automation_desc_todo'] = "Automatisch zu Objekten hinzufügen, wenn Aufmerksamkeit der Mitarbeiter benötigt wird.";
+$_ADDONLANG['admin_automation_desc_todo'] = "Automatisch zur To-Do Liste hinzufügen, wenn die Aufmerksamkeit der Mitarbeiter benötigt wird.";
 
 //Handling
 $_ADDONLANG['admin_handling_title_product'] = "Produkt-Handhabung";
-$_ADDONLANG['admin_handling_title_registrar'] = "Handhabung-Registrierbeamter";
+$_ADDONLANG['admin_handling_title_registrar'] = "Registrar-Handhabung";
 $_ADDONLANG['admin_handling_title_nameserver'] = "Nameserver-Handhabung";
 
 $_ADDONLANG['admin_handling_productzone'] = "Produktbereich erstellen";
@@ -296,9 +296,9 @@ $_ADDONLANG['admin_handling_defaultcluster'] = "Standard-Cluster";
 $_ADDONLANG['admin_handling_autosave'] = "Automatisches Speichern der Felder";
 
 $_ADDONLANG['admin_handling_desc_selectcreated'] = "Produkte auswählen, für die eine DNS-Zone erstellt werden soll.";
-$_ADDONLANG['admin_handling_desc_selectignoreproduct'] = "Produkte auswählen, für die keine DNS-Zone für verknüpfte Domainregistrierung oder Transfer erstellt werden soll.";
+$_ADDONLANG['admin_handling_desc_selectignoreproduct'] = "Produkte auswählen, für die keine DNS-Zone für verknüpfte Domainregistrierung oder Transfers erstellt werden soll.";
 $_ADDONLANG['admin_handling_desc_recordlimit'] = "Maximale Records einer Zone beschränken (0 = unbegrenzt).";
-$_ADDONLANG['admin_handling_desc_selectignoreregistrar'] = "Wähle für welche Registrare <u>keine</u> DNS-Zone erstellt werden sollen.";
+$_ADDONLANG['admin_handling_desc_selectignoreregistrar'] = "Wähle für welche Registrare <u>keine</u> DNS-Zonen erstellt werden sollen.";
 $_ADDONLANG['admin_handling_desc_nameserver'] = "Wählen Sie, wie die Zonen in den Clustern der Namenserver verteilt werden sollen.";
 
 $_ADDONLANG['admin_handling_option_default'] = "Standard-Nameserver";
@@ -307,7 +307,7 @@ $_ADDONLANG['admin_handling_desc_default'] = "Wählen Sie, welche Namenserver al
 $_ADDONLANG['admin_handling_option_distribution'] = "Zonen-Verteilung";
 $_ADDONLANG['admin_handling_desc_distribution'] = "Wählen Sie, wie die Zonen in den Clustern der Namenserver verteilt werden sollen.";
 $_ADDONLANG['admin_handling_option_default'] = "Standard";
-$_ADDONLANG['admin_handling_option_equal'] = "Gleichwertig";
+$_ADDONLANG['admin_handling_option_equal'] = "Gleichmäßig";
 
 $_ADDONLANG['admin_handling_dnsforproduct'] = "DNS ist für Produkte deaktiviert. Bitte aktiveren Sie DNS für Produkte in den Automatisierungs-Einstellungen.";
 
