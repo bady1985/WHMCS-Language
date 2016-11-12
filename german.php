@@ -695,16 +695,16 @@ $_ADDONLANG['global_title_system_permission'] = "Zugriff verweigert!";
 $_ADDONLANG['global_title_system_invalid'] = "Ungültige Anfrage";
 $_ADDONLANG['global_title_unauthorized'] = "Nicht autorisierte Anfrage";
 
-$_ADDONLANG['global_title_dns_record_edited'] = "Records wurden geändert!";
-$_ADDONLANG['global_title_dns_record_added'] = "Records wurden hinzugefügt!";
-$_ADDONLANG['global_title_dns_record_deleted'] = "Records wurden gelöscht!";
+$_ADDONLANG['global_title_dns_record_edited'] = "Record wurde geändert!";
+$_ADDONLANG['global_title_dns_record_added'] = "Record wurde hinzugefügt!";
+$_ADDONLANG['global_title_dns_record_deleted'] = "Record wurde gelöscht!";
 $_ADDONLANG['global_title_dns_record_limit'] = "Die maximale Anzahl an Records wurde erreicht!";
 $_ADDONLANG['global_title_dns_zone_limit'] = "Die maximale Anzahl an Zonen wurde erreicht!";
-$_ADDONLANG['global_title_dns_error'] = "Kann Änderungen nicht durchzuführen";
+$_ADDONLANG['global_title_dns_error'] = "Kann Änderungen nicht durchführen";
 $_ADDONLANG['global_title_dns_invalid_hostname'] = "Ungültiger Hostname";
 $_ADDONLANG['global_title_dns_invalid_domain'] = "Ungültiger Domain";
 $_ADDONLANG['global_title_dns_reverse_updated'] = "Revers-Hostname aktualisiert";
-$_ADDONLANG['global_title_dns_zone_exists'] = "ZOne nicht erreichbar";
+$_ADDONLANG['global_title_dns_zone_exists'] = "Zone nicht erreichbar";
 $_ADDONLANG['global_title_dns_zone_created'] = "Zone erstellt";
 $_ADDONLANG['global_title_dns_zone_unable_delete'] = "Kann die Zone nicht löschen";
 $_ADDONLANG['global_title_dns_zone_exception_delete'] = "Zone mit Ausnahmen gelöscht";
@@ -714,13 +714,13 @@ $_ADDONLANG['global_title_dns_zone_imported'] = "Zone importiert";
 $_ADDONLANG['global_title_template_applied'] = "Vorlage angewndet";
 
 // Desc
-$_ADDONLANG['global_desc_system_dbnotavailable'] = "Zurzeit ist es nicht möglich die DNS-Einstellungen Ihrer Domain zu ändern. Versuchen Sie es später erneut. Wenn dieses Problem  weiterhin besteht, kontaktieren Sie bitte unseren Support!";
+$_ADDONLANG['global_desc_system_dbnotavailable'] = "Zurzeit ist es nicht möglich die DNS-Einstellungen Ihrer Domain zu ändern. Versuchen Sie es später erneut. Wenn dieses Problem weiterhin besteht, kontaktieren Sie bitte unseren Support!";
 $_ADDONLANG['global_desc_system_dbnotavailable_admin'] = "Die Nameserver-Datenbank ist nicht verfügbar, kann Änderungen nicht durchführen!";
 $_ADDONLANG['global_desc_system_slavezone'] = "Diese Zone ist anscheinend eine Slave-Zone, der nicht bearbeitet werden kann! Wenn dies falsch ist, kontaktieren Sie bitte den Support.";
 $_ADDONLANG['global_desc_system_permission'] = "Sie verfügen nicht über die nötigen Rechte, um diesen Bereich zu betreten.";
 $_ADDONLANG['global_desc_system_auth'] = "Sie sind nicht berechtigt, Änderungen in diesem Bereich zu machen.";
 $_ADDONLANG['global_desc_system_invalid'] = "Das System konnte Ihre Anfrage nicht bearbeiten, da diese ungültig ist.";
-$_ADDONLANG['global_desc_system_invalid_record'] = "Das System konnte Ihre Anfrage nicht bearbeiten, da das Recordtyp nicht erlaubt ist.";
+$_ADDONLANG['global_desc_system_invalid_record'] = "Das System konnte Ihre Anfrage nicht bearbeiten, da der Recordtyp nicht erlaubt ist.";
 $_ADDONLANG['global_desc_unauthorized'] = "Das System konnte Ihre Anfrage nicht bearbeiten, da diese nichtautorisiert ist.";
 
 $_ADDONLANG['global_desc_dns_record_edited'] = "Die Änderungen wurden erfolgreich gespeichert.";
@@ -734,8 +734,8 @@ $_ADDONLANG['global_desc_dns_invalid_domain'] = "Bitte geben Sie eine gültige D
 $_ADDONLANG['global_desc_dns_reverse_updated'] = "Der Revers-Hostename wurde aktualisiert.";
 $_ADDONLANG['global_desc_dns_zone_exists'] = "Die Zone ist nicht verfügbar, da sie bereits genutzt wird.";
 $_ADDONLANG['global_desc_dns_zone_created'] = "Neue Zone wurde erfolgreich erstellt.";
-$_ADDONLANG['global_desc_dns_zone_unable_delete'] = "Das System konnte die Zone nicht löschen, da dieser nicht auf dem Nameserver gefunden wurde.";
-$_ADDONLANG['global_desc_dns_zone_deleted'] = "Neue Zone erfolgreich gelöscht.";
+$_ADDONLANG['global_desc_dns_zone_unable_delete'] = "Das System konnte die Zone nicht löschen, da diese nicht auf dem Nameserver gefunden wurde.";
+$_ADDONLANG['global_desc_dns_zone_deleted'] = "Zone erfolgreich gelöscht.";
 $_ADDONLANG['global_desc_dns_zone_imported'] = "Der Import der Zone wurde abgeschlossen. Die Records wurden vom System moderiert.";
 
 $_ADDONLANG['global_desc_template_applied'] = "Vorlage wurde erfolgreich angewendet.";
@@ -748,23 +748,23 @@ $_ADDONLANG['global_validate_dns_no_dnssec_for_zone'] = "Keine DNSec-Schlüssel 
 
 $_ADDONLANG['global_validate_dns_record_not_found'] = "Record wurde nicht gefunden.";
 $_ADDONLANG['global_validate_dns_record_collision'] = "Mehrere Records gefunden, kann diesen Vorgang nicht abschließen!";
-$_ADDONLANG['global_validate_dns_record_no_priority'] = "Recordstyp benötigt eine zahlenmäßige Priorität von Ihnen.";
-$_ADDONLANG['global_validate_dns_record_invalid_priority'] = "Recordstyp benötigt eine zahlenmäßige Priorität von Ihnen.";
+$_ADDONLANG['global_validate_dns_record_no_priority'] = "Recordstyp benötigt eine numerische Priorität von Ihnen.";
+$_ADDONLANG['global_validate_dns_record_invalid_priority'] = "Recordstyp benötigt eine numerische Priorität von Ihnen.";
 
-$_ADDONLANG['global_validate_dns_no_database'] = "Bestätigung nicht möglich. Datenbankverbindung nicht möglich.";
+$_ADDONLANG['global_validate_dns_no_database'] = "Validierung nicht möglich. Datenbankverbindung nicht möglich.";
 $_ADDONLANG['global_validate_dns_domain_not_in_name'] = "Das Namenfeld muss den Domainnamen beinhalten.";
 $_ADDONLANG['global_validate_dns_type_empty'] = "Recordstyp darf nicht leer sein.";
 $_ADDONLANG['global_validate_dns_invalid_type'] = "Recordstyp nicht erkannt.";
 $_ADDONLANG['global_validate_dns_invalid_ttl'] = "Der TTL-Wert muss numerisch sein.";
 $_ADDONLANG['global_validate_dns_content_too_long'] = "Der eingegebene Inhaltswert ist zu lang und kann nicht mehr als 4096 Zeichen enthalten.";
 
-$_ADDONLANG['global_validate_dns_invalid_ipv4'] = "IPv4-Adressen sind anscheinend nicht gültig.";
-$_ADDONLANG['global_validate_dns_invalid_ipv6'] = "IPv6-Adressen sind anscheinend nicht gültig. IPv4 und IPv6 Bezeichnungen werden nicht unterstützt.";
+$_ADDONLANG['global_validate_dns_invalid_ipv4'] = "IPv4-Adresse ist anscheinend nicht gültig.";
+$_ADDONLANG['global_validate_dns_invalid_ipv6'] = "IPv6-Adresse ist anscheinend nicht gültig. IPv4 und IPv6 Bezeichnungen werden nicht unterstützt.";
 
-$_ADDONLANG['global_validate_dns_invalid_not_quoted'] = "Inhalt muss angegeben werden (\").";
+$_ADDONLANG['global_validate_dns_invalid_not_quoted'] = "Inhalt muss quoted werden (\").";
 
-$_ADDONLANG['global_validate_dns_invalid_fqhn'] = "Recordstyp muss einen gültigen Hostnamen beinhalten, nicht mit einem Punkt (.) beenden.";
-$_ADDONLANG['global_validate_dns_invalid_fqdn'] = "Recordstyp muss eine gültige Domain beinhalten, nicht mit einem Punkt (.) beenden.";
+$_ADDONLANG['global_validate_dns_invalid_fqhn'] = "Recordstyp muss einen gültigen Hostnamen beinhalten, darf nicht mit einem Punkt (.) eden.";
+$_ADDONLANG['global_validate_dns_invalid_fqdn'] = "Recordstyp muss eine gültige Domain beinhalten, darf nicht mit einem Punkt (.) enden.";
 
 $_ADDONLANG['global_validate_dns_invalid_arpa'] = "Revers-Name nicht gültig.";
 $_ADDONLANG['global_validate_dns_not_unique'] = "Ähnliche Records existiert bereits.";
@@ -797,7 +797,7 @@ $_ADDONLANG['global_validate_dns_rp_parts_missing'] = htmlentities("RP Record m�
 $_ADDONLANG['global_validate_dns_rp_part_0_invalid'] = "Der Mailbox-Name muss eine E-Mail-Adresse mit einem (@) oder einem Ersatzpunkt (.) enthalten.";
 $_ADDONLANG['global_validate_dns_rp_part_1_invalid'] = "Der Weitere-Informationen Zeiger muss eine gültige Domain enthalten.";
 
-$_ADDONLANG['global_validate_dns_soa_parts_missing'] = htmlentities("Die SOA Record muss enthalten: <primary-ns> <hostmaster> <serial> <refresh> <retry> <expire> <default_ttl>");
+$_ADDONLANG['global_validate_dns_soa_parts_missing'] = htmlentities("Der SOA Record muss enthalten: <primary-ns> <hostmaster> <serial> <refresh> <retry> <expire> <default_ttl>");
 $_ADDONLANG['global_validate_dns_soa_part_0_invalid'] = "Die primäre Nameserver-Domain ist nicht gültig.";
 $_ADDONLANG['global_validate_dns_soa_part_1_invalid'] = "Die Hostname-E-Mail-Adresse ist nicht gültig.";
 $_ADDONLANG['global_validate_dns_soa_part_2_invalid'] = "Serial (Teil 3) muss nummerisch sein.";
@@ -813,9 +813,9 @@ $_ADDONLANG['global_validate_dns_sshfp_invalid_2_part'] = "Ein SHA-1 Fingerabrcu
 $_ADDONLANG['global_validate_dns_sshfp_invalid_3_part'] = "Ein SHA-256 Fingerabrcuk mit 64 ASCII hexadezimal Zeichen muss bereitgestellt werden.";
 
 $_ADDONLANG['global_validate_dns_srv_missing_priority'] = "Geben Sie bitte eine Priorität ein.";
-$_ADDONLANG['global_validate_dns_srv_parts_missing'] = htmlentities("Die SRV Record muss Folgendes enthalten: <weight> <port> <service>");
-$_ADDONLANG['global_validate_dns_srv_part_0_invalid'] = "Gewicht (Teil 1) muss nummerisch sein.";
-$_ADDONLANG['global_validate_dns_srv_part_1_invalid'] = "Port (Teil 2) muss nummerisch sein.";
+$_ADDONLANG['global_validate_dns_srv_parts_missing'] = htmlentities("Der SRV Record muss folgendes enthalten: <weight> <port> <service>");
+$_ADDONLANG['global_validate_dns_srv_part_0_invalid'] = "Gewicht (Teil 1) muss numerisch sein.";
+$_ADDONLANG['global_validate_dns_srv_part_1_invalid'] = "Port (Teil 2) muss numerisch sein.";
 $_ADDONLANG['global_validate_dns_srv_part_2_invalid'] =  "Ein SRV Record muss eine gültige Domain als Service enthalten.";
 
 $_ADDONLANG['global_validate_dns_hinfo_invalid'] = "Das HINFO Feld enthält einen ungültigen Wert.";
@@ -836,9 +836,9 @@ $_ADDONLANG['global_tlsa_pkixta_info'] = "For a CA certificate or public key of 
 $_ADDONLANG['global_tlsa_pkixee_info'] = "For a certificate or public key of this certificate that requires to match the server certificate and must pass PKIX validation (Public-Key Infrastructure).";
 $_ADDONLANG['global_tlsa_daneta_info'] = "For a CA certificate or public key of this certificate that requires to be in the certification path. The record is considered to be the trust anchor.";
 $_ADDONLANG['global_tlsa_daneee_info'] = "For a certificate or public key of this certificate that requires to match the server certificate.";
-$_ADDONLANG['global_tlsa_certificate_info'] = "Enter PEM format X.509 certificate.";
+$_ADDONLANG['global_tlsa_certificate_info'] = "Enter PEM format X.509 Zertifikat.";
 
-$_ADDONLANG['global_tlsa_cert_expired_title'] = "Certificate Invalid";
+$_ADDONLANG['global_tlsa_cert_expired_title'] = "Zertifikat ungültig";
 $_ADDONLANG['global_tlsa_cert_expired_desc'] = "The certificate you have entered has expired or is invalid and cannot be used.";
 
 // Global Messages
@@ -848,14 +848,14 @@ $_ADDONLANG['global_msg_changes_saved_desc'] = "Alle Änderungen wurden erfolgre
 $_ADDONLANG['global_msg_template_created_title'] = "Neue Vorlage erstellt!";
 $_ADDONLANG['global_msg_template_created_desc'] = "Eine neue Vorlage wurde erfolgreich hinzugefügt.";
 
-$_ADDONLANG['global_msg_template_update_title'] = "Vorlagenname aktualisiert!";
+$_ADDONLANG['global_msg_template_update_title'] = "Name der Vorlage aktualisiert!";
 $_ADDONLANG['global_msg_template_update_desc'] = "Die Vorlage wurde erfolgreich aktualisiert.";
 
 $_ADDONLANG['global_msg_template_removed_title'] = "Vorlage entfernt!";
 $_ADDONLANG['global_msg_template_removed_desc'] = "Die Vorlage wurde erfolgreich entfernt.";
 
-$_ADDONLANG['global_msg_invalid_ip_title'] = "IP-Adress ist nicht gültig!";
-$_ADDONLANG['global_msg_invalid_ip_desc'] = "Die eingegebene IP-Adress ist nicht gültig!";
+$_ADDONLANG['global_msg_invalid_ip_title'] = "IP-Adresse ist ungültig!";
+$_ADDONLANG['global_msg_invalid_ip_desc'] = "Die eingegebene IP-Adresse ist nicht gültig!";
 $_ADDONLANG['global_msg_invalid_ip4_desc'] = "Die Standard IPv4 IP ist nicht gültig.";
 $_ADDONLANG['global_msg_invalid_ip6_desc'] = "Die Standard IPv6 IP ist nicht gültig.";
 
@@ -865,17 +865,17 @@ $_ADDONLANG['global_msg_template_updated_desc'] = "Vorlagen-Einstellungen erfolg
 $_ADDONLANG['global_msg_health_reset_title'] = "Gesundheits-Reset abgeschlossen!";
 $_ADDONLANG['global_msg_health_reset_desc'] = "Gesundheits-Status wurde erfolgreich zurückgesetzt.";
 
-$_ADDONLANG['global_msg_client_notfound_title'] = "Klient nicht gefunden!";
-$_ADDONLANG['global_msg_client_notfound_desc'] = "Der Klient konnte nicht gefunden werden. Unfähig fortzufahren.";
+$_ADDONLANG['global_msg_client_notfound_title'] = "Kunde nicht gefunden!";
+$_ADDONLANG['global_msg_client_notfound_desc'] = "Der Kunde konnte nicht gefunden werden. Fortfahren nicht möglich.";
 
 $_ADDONLANG['global_msg_domain_notlocal_title'] = "Unfähig die Local-Domain zu verbinden!";
 $_ADDONLANG['global_msg_domain_notlocald_desc'] = "Die Zone konnten nicht zu einer Domain oder zum Local für einen Kunden verbunden werden.";
 $_ADDONLANG['global_msg_domain_notlocalp_desc'] = "Die Zonen konnten nicht zu einem Produkt oder zum Local für einen DNS-Bereich eines Kundens verbunden werden.";
 
 $_ADDONLANG['global_msg_unknown_zonetype_title'] = "Unfähig die Zone zu bestimmen!";
-$_ADDONLANG['global_msg_unknown_zonetype_desc'] = "Die Zone konnte nicht erstellt werden, weil der Zonentyp unbekannt ist.";
+$_ADDONLANG['global_msg_unknown_zonetype_desc'] = "Die Zone konnte nicht erstellt werden, da der Zonentyp unbekannt ist.";
 
-$_ADDONLANG['global_msg_delete_selected_title'] = "Ausgewähltes gelöscht!";
+$_ADDONLANG['global_msg_delete_selected_title'] = "Auswahl gelöscht!";
 $_ADDONLANG['global_msg_delete_selected_desc'] = "Ausgewählte Objekte erfolgreich gelöscht.";
 
 $_ADDONLANG['global_msg_template_activated_title'] = "Vorlage aktiviert";
@@ -884,7 +884,7 @@ $_ADDONLANG['global_msg_template_activated_desc'] = "Die Standardvorlage wurde f
 $_ADDONLANG['global_msg_invalid_reverse_title'] = "Ungültige Revers-Zone";
 $_ADDONLANG['global_msg_invalid_reverse_desc'] = "Die Revers-Zone scheint ungültig zu sein und kann nicht erstellt werden.";
 
-$_ADDONLANG['global_msg_invalid_input_title'] = "Ungültiger Input";
+$_ADDONLANG['global_msg_invalid_input_title'] = "Ungültige Eingabe";
 $_ADDONLANG['global_msg_invalid_input_desc'] = "Das System konnte Ihre Anfrage nicht bearbeiten, da diese ungültig ist.";
 		
 //HEALTH
