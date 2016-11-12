@@ -349,7 +349,7 @@ $_ADDONLANG['admin_manage_tab_settings'] = "Einstellungen";
 
 $_ADDONLANG['admin_manage_title_zone'] = "Zonen";
 $_ADDONLANG['admin_manage_title_client'] = "Kunden";
-$_ADDONLANG['admin_manage_title_email'] = "E-mail";
+$_ADDONLANG['admin_manage_title_email'] = "E-Mail";
 $_ADDONLANG['admin_manage_title_dnsseckeys'] = "DNSsec Schlüssel";
 $_ADDONLANG['admin_manage_title_dsrecords'] = "DS Records";
 $_ADDONLANG['admin_manage_title_health'] = "Gesundheit";
@@ -360,7 +360,7 @@ $_ADDONLANG['admin_manage_title_actioncompleted_reload'] = "Laden der DNSsec Sch
 
 $_ADDONLANG['admin_manage_table_id'] = "ID";
 $_ADDONLANG['admin_manage_table_keytag'] = "Schlüssel-Tag";
-$_ADDONLANG['admin_manage_table_flag'] = "Flagge";
+$_ADDONLANG['admin_manage_table_flag'] = "Flag";
 $_ADDONLANG['admin_manage_table_algorithm'] = "Algorithmus";
 $_ADDONLANG['admin_manage_table_publickey'] = "Öffentlicher Schlüssel";
 $_ADDONLANG['admin_manage_table_status'] = "Status";
@@ -378,13 +378,13 @@ $_ADDONLANG['admin_manage_ttl'] = "TTL";
 $_ADDONLANG['admin_manage_service'] = "Service";
 $_ADDONLANG['admin_manage_protocol'] = "Protokoll";
 $_ADDONLANG['admin_manage_priority'] = "Priorität";
-$_ADDONLANG['admin_manage_weight'] = "Gewicht";
+$_ADDONLANG['admin_manage_weight'] = "Gewichtung";
 $_ADDONLANG['admin_manage_target'] = "Ziel";
 $_ADDONLANG['admin_manage_port'] = "Port";
 $_ADDONLANG['admin_manage_usage'] = "Usage";
 $_ADDONLANG['admin_manage_selector'] = "Selector";
 $_ADDONLANG['admin_manage_matchingtype'] = "Matching Type";
-$_ADDONLANG['admin_manage_certificate'] = "Certificate";
+$_ADDONLANG['admin_manage_certificate'] = "Zertifikat";
 
 $_ADDONLANG['admin_manage_dnssec_addnewkey'] = "Neuen DNSsec Schlüssel hinzufügen";
 $_ADDONLANG['admin_manage_dnssec_flag'] = "Flag";
@@ -413,7 +413,7 @@ $_ADDONLANG['admin_manage_records_deleteselected'] = "Record auswählen";
 
 
 $_ADDONLANG['admin_manage_text_deleterecord'] = "Sind Sie sicher, dass Sie diesen Record löschen möchten?";
-$_ADDONLANG['admin_manage_text_importzone'] = "Eine Zonendatei importieren. Importiere Records werden vom System verwaltet.";
+$_ADDONLANG['admin_manage_text_importzone'] = "Eine Zonendatei importieren. Importierte Records werden vom System verwaltet.";
 $_ADDONLANG['admin_manage_text_importzoneoverwrite'] = "Aktuelle Zone überschreiben, alle Records werden vor dem Import gelöscht.";
 
 $_ADDONLANG['admin_manage_manage'] = "Verwalten";
@@ -460,24 +460,24 @@ $_ADDONLANG['admin_nameservers_option_nameserver4'] = "Nameserver 4";
 $_ADDONLANG['admin_nameservers_option_nameserver5'] = "Nameserver 5";
 $_ADDONLANG['admin_nameservers_option_nameserver6'] = "Nameserver 6";
 
-$_ADDONLANG['admin_nameservers_option_useprivatekey'] = "Nutze Privatschlüssel";
+$_ADDONLANG['admin_nameservers_option_useprivatekey'] = "Verwende einen Privatschlüssel";
 $_ADDONLANG['admin_nameservers_option_privatekey'] = "Privatschlüssel";
 
 $_ADDONLANG['admin_nameservers_option_pdnsversion'] = "PowerDNS version";
 $_ADDONLANG['admin_nameservers_option_enablednssec'] = "DNSsec aktivieren";
-$_ADDONLANG['admin_nameservers_option_autorectify'] = "Automatisch Zone korrigieren";
-$_ADDONLANG['admin_nameservers_option_autoenablednssec'] = "Automatisch DNSsec aktivieren";
+$_ADDONLANG['admin_nameservers_option_autorectify'] = "Zone automaitsch korrigieren";
+$_ADDONLANG['admin_nameservers_option_autoenablednssec'] = "DNSsec automatisch aktivieren";
 $_ADDONLANG['admin_nameservers_option_setnsec3'] = "NSEC3 festlegen";
-$_ADDONLANG['admin_nameservers_option_showtoclient'] = "Zeige Kunden den Schlüssel";
+$_ADDONLANG['admin_nameservers_option_showtoclient'] = "Kunden den Schlüssel zeigen";
 
-$_ADDONLANG['admin_nameservers_desc_host'] = "Domain oder IP der Remote MySQL Server enthält die PowerDNS Zone.";
+$_ADDONLANG['admin_nameservers_desc_host'] = "Domain oder IP der MySQL Servers welcher diePowerDNS Zone enthält.";
 $_ADDONLANG['admin_nameservers_desc_port'] = "Der Standard MySQL Port ist 3306.";
-$_ADDONLANG['admin_nameservers_desc_zonetype'] = "Wählen Sie den ZOnentypen, den Sie für den Transfer auf Ihren Nameserver benötigen.";
+$_ADDONLANG['admin_nameservers_desc_zonetype'] = "Wählen Sie den Zonentypen, den Sie für den Transfer auf Ihren Nameserver benötigen.";
 
 $_ADDONLANG['admin_nameservers_desc_nameserver1'] = "Der primäre Nameserver wird ebenfalls in der SOA Records genutzt.";
 $_ADDONLANG['admin_nameservers_desc_nameserver6'] = "Wenn weniger Nameserver genutzt werden, lassen Sie die Extrafelder leer.";
 
-$_ADDONLANG['admin_nameservers_desc_sshhost'] = "Domain oder IP des Remote-Servers enthält PowerDNS Zonen.";
+$_ADDONLANG['admin_nameservers_desc_sshhost'] = "Domain oder IP des Servers welcher die PowerDNS Zonen enthält.";
 $_ADDONLANG['admin_nameservers_desc_sshport'] = "Standard SSH port is 22.";
 
 $_ADDONLANG['admin_nameservers_desc_useprivatekey'] = "Auwählen, um Privatschlüssel zum Einloggen ins SHH zu nutzen, anstatt des Passworts.";
@@ -515,7 +515,7 @@ $_ADDONLANG['admin_overview_standalone']  = "Selbstständig";
 $_ADDONLANG['admin_overview_zonetype']  = "Zonentyp";
 $_ADDONLANG['admin_overview_selecttype']  = "Auswahltyp";
 $_ADDONLANG['admin_overview_ipaddresszone']  = "IP-Adresse oder Zonenname";
-$_ADDONLANG['admin_overview_client']  = "Klient";
+$_ADDONLANG['admin_overview_client']  = "Kunde";
 
 $_ADDONLANG['admin_overview_table_id']  = "ID";
 $_ADDONLANG['admin_overview_table_domain']  = "Domain";
@@ -540,13 +540,13 @@ $_ADDONLANG['admin_records_option_refresh'] = "Refresh";
 $_ADDONLANG['admin_records_option_retry'] = "Retry";
 $_ADDONLANG['admin_records_option_expire'] = "Ablaufen";
 $_ADDONLANG['admin_records_option_ttl'] = "Mindest TTL";
-$_ADDONLANG['admin_records_option_customprimary'] = "Allow custom primary";
+$_ADDONLANG['admin_records_option_customprimary'] = "Custom primary erlauben";
 
 $_ADDONLANG['admin_records_option_recordlimit'] = "Recordlimit";
 
 $_ADDONLANG['admin_records_desc_hostmaster'] = "&lt;domain&gt; hinzufügen, um die Domain als Hostmaster zu nutzen.";
 $_ADDONLANG['admin_records_desc_serial'] = "Lassen Sie dies als Standard, falls Sie nicht genau wissen, was es bezweckt!";
-$_ADDONLANG['admin_records_desc_customprimary'] = "Do not overwrite the primary nameserver SOA value with the cluster default.";
+$_ADDONLANG['admin_records_desc_customprimary'] = "Überschreiben Sie nicht den primären Nameserver-SOA-Wert mit dem Cluster-Standardwert.";
 
 $_ADDONLANG['admin_records_desc_recordlimit'] = "Maximale Records in einer Zone beschränken (0 = unbegrenzt).";
 
@@ -555,8 +555,8 @@ $_ADDONLANG['admin_records_select_epoch'] = "Epoche (Unix Zeit)";
 $_ADDONLANG['admin_records_select_zero'] = "Letzter aufgezeichneter Zeitraum";
 
 //Tools
-$_ADDONLANG['admin_tools_title_tools'] = "Werkezuge";
-$_ADDONLANG['admin_tools_title_mutationtool'] = "Änderungswerkezuge";
+$_ADDONLANG['admin_tools_title_tools'] = "Werkzeuge";
+$_ADDONLANG['admin_tools_title_mutationtool'] = "Änderungswerkzeuge";
 $_ADDONLANG['admin_tools_title_dnssectool'] = "DNSsec Tool";
 
 $_ADDONLANG['admin_tools_startmutation'] = "Änderung beginnen";
@@ -569,8 +569,8 @@ $_ADDONLANG['admin_system_title_system'] = "System";
 $_ADDONLANG['admin_system_title_crons'] = "Cronjobs";
 $_ADDONLANG['admin_system_title_logging'] = "Protokollierung";
 
-$_ADDONLANG['admin_system_option_rectifycron'] = "DNSsec Cron korrigieren";
-$_ADDONLANG['admin_system_option_healthcron'] = "Gesundheitssystem Cron korrigieren";
+$_ADDONLANG['admin_system_option_rectifycron'] = "DNSsec Rectify-Cron";
+$_ADDONLANG['admin_system_option_healthcron'] = "Gesundheitssystem-Cron";
 $_ADDONLANG['admin_system_option_cronmode'] = "Cron Mode";
 $_ADDONLANG['admin_system_option_cronstatus'] = "Status";
 
@@ -582,7 +582,7 @@ $_ADDONLANG['admin_system_option_logging'] = "Systemprotokollierung";
 $_ADDONLANG['admin_system_option_debug'] = "Debug Protokollierung";
 
 $_ADDONLANG['admin_system_desc_maintenance'] = "Auswählen, um Wartungsmodus zu aktiveren.";
-$_ADDONLANG['admin_system_desc_logging'] = "Auswählen, um Systemprotokollierung zu aktivieren (Nur Logs automatisierte Prozesse).";
+$_ADDONLANG['admin_system_desc_logging'] = "Auswählen, um Systemprotokollierung zu aktivieren (Logged nur automatisierte Prozesse).";
 $_ADDONLANG['admin_system_desc_debug'] = "Auswählen für Debug Protokollierung.";
 
 $_ADDONLANG['admin_system_active'] = "Akitv";
@@ -662,16 +662,16 @@ $_ADDONLANG['admin_msg_invalid_request_title'] = "Ungültige Anfrage";
 $_ADDONLANG['admin_msg_invalid_request_desc'] = "Das System konnte Ihre Anfrage nicht bearbeiten, da diese wohlmöglich ungültig ist.";
 
 $_ADDONLANG['admin_msg_invalid_license_title'] = "Funktion nicht lizensiert";
-$_ADDONLANG['admin_msg_invalid_license_desc'] = "Anfrage konnte nicht beender werden, da diese nicht lizensiert ist.";
+$_ADDONLANG['admin_msg_invalid_license_desc'] = "Anfrage konnte nicht beendet werden, da diese nicht lizensiert ist.";
 
 $_ADDONLANG['admin_msg_maintenance_title'] = "Wartungsmodus aktiviert";
-$_ADDONLANG['admin_msg_maintenance_desc'] = "Der Wartungsmodus wurder aktiviert. Das DNS Management für Klienten wurde deaktivert.";
+$_ADDONLANG['admin_msg_maintenance_desc'] = "Der Wartungsmodus wurde aktiviert. Das DNS Management für Kunden wurde deaktivert.";
 
 $_ADDONLANG['admin_msg_cron_reset_title'] = "Cron-Anfrage abgeschlossen";
 $_ADDONLANG['admin_msg_cron_reset_desc'] = "Der Cron-Status wurde erfolgreich zurückgesetzt.";
 
 $_ADDONLANG['admin_msg_update_title'] = "Neues Update verfügbar.";
-$_ADDONLANG['admin_msg_update_desc'] = "Ein neues Update v%s (%h) ist jetzt verfügbar. Sie können es hier herunterladen: <a href=\"https://ssc.netdistrict.net\">client area</a>.";
+$_ADDONLANG['admin_msg_update_desc'] = "Ein neues Update v%s (%h) ist jetzt verfügbar. Sie können es hier herunterladen: <a href=\"https://ssc.netdistrict.net\">Kundenbereich</a>.";
 
 $_ADDONLANG['admin_msg_update_dismiss_title'] = "Update deaktiviert";
 $_ADDONLANG['admin_msg_update_dismiss_desc'] = "Die Update-Benachrichtigungen wurden deaktivert";
@@ -682,8 +682,8 @@ $_ADDONLANG['admin_msg_update_check_desc'] = "Das System wurde auf Updates über
 $_ADDONLANG['admin_msg_nozone_title'] = "Die Zone konnte nicht gefunden werden!";
 $_ADDONLANG['admin_msg_nozone_desc'] = "Die Zone ist eventuell nicht zugewiesen und existiert nicht auf dem Nameserver.";
 
-$_ADDONLANG['admin_msg_clearlogs_title'] = "Logs erfolgreich freigegeben!";
-$_ADDONLANG['admin_msg_clearlogs_desc'] = "Alle SoluteDNS Logs wurden erfolgreich freigegeben.";
+$_ADDONLANG['admin_msg_clearlogs_title'] = "Logs erfolgreich geleert!";
+$_ADDONLANG['admin_msg_clearlogs_desc'] = "Alle SoluteDNS Logs wurden erfolgreich geleert.";
 
 #####################
 // GLOBAL LANGUAGE //
