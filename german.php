@@ -77,8 +77,8 @@ $_ADDONLANG['client_back'] = "Zurück";
 $_ADDONLANG['client_activate'] = "Aktivieren";
 
 // Text
-$_ADDONLANG['client_text_deleterecord'] = "Sie sich sicher, dass Sie diesen Record löschen wollen?";
-$_ADDONLANG['client_text_deletezone'] = "Sie sich sicher, dass Sie diese Zone löschen wollen?";
+$_ADDONLANG['client_text_deleterecord'] = "Sind Sie sich sicher, dass Sie diesen Record löschen wollen?";
+$_ADDONLANG['client_text_deletezone'] = "Sind Sie sich sicher, dass Sie diese Zone löschen wollen?";
 $_ADDONLANG['client_text_templatedesc'] = "Bitte nutzen Sie :&lt;domain&gt; als Domain. Dieser Tag wird in die tatsächliche Domain konvertiert.";
 $_ADDONLANG['client_text_activatedesc'] = "Sie können eine Standardvorlage für die Nutzung einer neuen Zone oder einer neuen Domain zur Registration auswählen.";
 
@@ -100,7 +100,7 @@ $_ADDONLANG['client_hostname'] = "Hostname";
 $_ADDONLANG['client_entersearch'] = "Bitte Suchbegriff eingeben...";
 
 // DataTable Records
-$_ADDONLANG['client_records_sEmptyTable'] = "Keine Eintäge gefunden";
+$_ADDONLANG['client_records_sEmptyTable'] = "Keine Einträge gefunden";
 $_ADDONLANG['client_records_sInfo'] = "Zeige _START_ to _END_ von _TOTAL_ Einträgen an";
 $_ADDONLANG['client_records_sInfoEmpty'] = "Zeige 0 bis 0 von 0 Records an";
 $_ADDONLANG['client_records_sInfoFiltered'] = "(gefiltert von _MAX_ Records insgesamt)";
