@@ -7,9 +7,9 @@
 Language file:			German
 Created by:				SoluteDNS
 
-Version:				0.2.6
-Date:					29-10-2016
-Distribution Package:	16003
+Version:				0.2.7
+Date:					17-12-2016
+Distribution Package:	16005
 
 Copyright (C) NetDistrict 2016
 All Rights Reserved
@@ -45,13 +45,13 @@ $_ADDONLANG['client_type'] = "Typ";
 $_ADDONLANG['client_content'] = "Inhalt";
 $_ADDONLANG['client_prio'] = "Prio";
 $_ADDONLANG['client_ttl'] = "TTL";
-
 $_ADDONLANG['client_loading'] = "Laden...";
-
 $_ADDONLANG['client_minute'] = "Minute";
 $_ADDONLANG['client_minutes'] = "Minuten";
 $_ADDONLANG['client_hour'] = "Stunde";
 $_ADDONLANG['client_day'] = "Tag";
+$_ADDONLANG['client_hours'] = "Stunden";
+$_ADDONLANG['client_days'] = "Tage";
 
 $_ADDONLANG['client_service'] = "Service";
 $_ADDONLANG['client_protocol'] = "Protokoll";
@@ -59,6 +59,8 @@ $_ADDONLANG['client_priority'] = "Priorität";
 $_ADDONLANG['client_weight'] = "Gewicht";
 $_ADDONLANG['client_target'] = "Ziel";
 $_ADDONLANG['client_port'] = "Anschluss";
+
+$_ADDONLANG['client_actioncompleted'] = "Aktion abgeschlossen"
 
 // Zone Management
 $_ADDONLANG['client_addnewzone'] = "Neue Zone hinzufügen";
@@ -75,6 +77,11 @@ $_ADDONLANG['client_delete'] = "Löschen";
 $_ADDONLANG['client_cancel'] = "Abbrechen";
 $_ADDONLANG['client_back'] = "Zurück";
 $_ADDONLANG['client_activate'] = "Aktivieren";
+
+$_ADDONLANG['client_enable'] = "Aktivieren";
+$_ADDONLANG['client_disable'] = "Deaktivieren";
+$_ADDONLANG['client_enable'] = "Aktiviert";
+$_ADDONLANG['client_disable'] = "Deaktiviert";
 
 // Text
 $_ADDONLANG['client_text_deleterecord'] = "Sind Sie sich sicher, dass Sie diesen Record löschen wollen?";
@@ -228,6 +235,7 @@ $_ADDONLANG['admin_accessibility_option_urlrewrite'] = "Rewrite Kundenbereichs-U
 
 $_ADDONLANG['admin_accessibility_option_clientzones'] = "Kundenbereich aktivieren";
 $_ADDONLANG['admin_accessibility_option_client_zones_subdomains'] = "Zonen für Subdomains erlauben";
+$_ADDONLANG['admin_accessibility_option_client_zones_dnssec'] = "Erlaube DNSsec-Kontrolle";
 $_ADDONLANG['admin_accessibility_option_clienttemplate'] = "Kundenvorlagen aktivieren";
 $_ADDONLANG['admin_accessibility_option_clienthealth'] = "Gesundheitszustand aktivieren";
 $_ADDONLANG['admin_accessibility_option_clientreverse'] = "Revers-Management";
@@ -247,6 +255,7 @@ $_ADDONLANG['admin_accessibility_desc_urlrewrite'] = "Umschreiben Sie die Kunden
 $_ADDONLANG['admin_accessibility_desc_clientzones'] = "Auswählen, um das Zonenmanagement für Kunden zu aktivieren.";
 $_ADDONLANG['admin_accessibility_desc_clienttemplate'] = "Auswählen, um Standardvorlagen für Kunden zu aktivieren.";
 $_ADDONLANG['admin_accessibility_desc_client_zones_subdomains'] = "Kunden erlauben Subdomains als neue Zone hinzuzufügen.";
+$_ADDONLANG['admin_accessibility_desc_client_zones_dnssec'] = "Erlaube den Kunden DNSsec für die Zone zu aktiveren bzw. zu deaktivieren.";
 $_ADDONLANG['admin_accessibility_desc_clienthealth'] = "Auswählen, um den Gesundheitszustand im Kundenbereich zu aktivieren.";
 $_ADDONLANG['admin_accessibility_desc_clientreverse'] = "Anklicken, sodass Kunden den Revers-Hostname für zugewiesene IP-Adresse verwalten können.";
 $_ADDONLANG['admin_accessibility_desc_zonelimit'] = "Beschränken Sie die maximalen Zonen für die Kunden. (0 = unbegrenzt, -1 = keine)";
