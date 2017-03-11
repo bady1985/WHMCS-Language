@@ -7,9 +7,9 @@
 Language file:			German
 Created by:				SoluteDNS
 
-Version:				0.2.7
-Date:					17-12-2016
-Distribution Package:	16005
+Version:				v2.17.003.
+Date:					11-03-2017
+Distribution Package:	17003
 
 Copyright (C) NetDistrict 2016
 All Rights Reserved
@@ -217,6 +217,7 @@ $_ADDONLANG['admin_terminated'] = "Beendet";
 $_ADDONLANG['admin_expired'] = "Abgelaufen";
 $_ADDONLANG['admin_suspended'] = "Gesperrt";
 $_ADDONLANG['admin_fraud'] = "Betrug";
+$_ADDONLANG['admin_transferredaway'] = "Ausgehend transferiert";
 
 //Accessibility
 $_ADDONLANG['admin_accessibility_title_accessibility'] = "Zugänglichkeit";
