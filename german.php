@@ -60,7 +60,7 @@ $_ADDONLANG['client_weight'] = "Gewicht";
 $_ADDONLANG['client_target'] = "Ziel";
 $_ADDONLANG['client_port'] = "Anschluss";
 
-$_ADDONLANG['client_actioncompleted'] = "Aktion abgeschlossen"
+$_ADDONLANG['client_actioncompleted'] = "Aktion abgeschlossen";
 
 // Zone Management
 $_ADDONLANG['client_addnewzone'] = "Neue Zone hinzufügen";
